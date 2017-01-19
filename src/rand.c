@@ -8,6 +8,7 @@ void init_rand(void)
 }
 
 // TODO: use a better random generator
+// Latest :)
 int random_int(int max)
 {
   return rand()*max / RAND_MAX;
